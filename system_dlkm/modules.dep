@@ -6,6 +6,7 @@
 /system/lib/modules/usbserial.ko:
 /system/lib/modules/nhc_hop.ko: /system/lib/modules/6lowpan.ko
 /system/lib/modules/slhc.ko:
+/system/lib/modules/virtio_pci_legacy_dev.ko:
 /system/lib/modules/open-dice.ko:
 /system/lib/modules/ftdi_sio.ko: /system/lib/modules/usbserial.ko
 /system/lib/modules/cdc_ncm.ko: /system/lib/modules/cdc_ether.ko /system/lib/modules/usbnet.ko /system/lib/modules/mii.ko
@@ -62,7 +63,7 @@
 /system/lib/modules/zsmalloc.ko:
 /system/lib/modules/can.ko:
 /system/lib/modules/dev_addr_lists_test.ko: /system/lib/modules/kunit.ko
-/system/lib/modules/virtio_pci.ko: /system/lib/modules/virtio_pci_modern_dev.ko
+/system/lib/modules/virtio_pci.ko: /system/lib/modules/virtio_pci_legacy_dev.ko /system/lib/modules/virtio_pci_modern_dev.ko
 /system/lib/modules/macsec.ko:
 /system/lib/modules/regmap-ram.ko:
 /system/lib/modules/btbcm.ko: /system/lib/modules/bluetooth.ko /system/lib/modules/rfkill.ko

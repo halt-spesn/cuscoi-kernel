@@ -40,6 +40,8 @@ alias of:N*T*Cqcom,msm8909-tsens qcom_tsens
 alias of:N*T*Cqcom,msm8909-tsensC* qcom_tsens
 alias of:N*T*Cqcom,msm8916-tsens qcom_tsens
 alias of:N*T*Cqcom,msm8916-tsensC* qcom_tsens
+alias of:N*T*Cqcom,msm8937-tsens qcom_tsens
+alias of:N*T*Cqcom,msm8937-tsensC* qcom_tsens
 alias of:N*T*Cqcom,msm8939-tsens qcom_tsens
 alias of:N*T*Cqcom,msm8939-tsensC* qcom_tsens
 alias of:N*T*Cqcom,msm8956-tsens qcom_tsens
@@ -143,6 +145,20 @@ alias of:N*T*Cqcom,qcs404-cdsp-pas qcom_q6v5_pas
 alias of:N*T*Cqcom,qcs404-cdsp-pasC* qcom_q6v5_pas
 alias of:N*T*Cqcom,qcs404-wcss-pas qcom_q6v5_pas
 alias of:N*T*Cqcom,qcs404-wcss-pasC* qcom_q6v5_pas
+alias of:N*T*Cqcom,sa8775p-adsp-pas qcom_q6v5_pas
+alias of:N*T*Cqcom,sa8775p-adsp-pasC* qcom_q6v5_pas
+alias of:N*T*Cqcom,sa8775p-cdsp0-pas qcom_q6v5_pas
+alias of:N*T*Cqcom,sa8775p-cdsp0-pasC* qcom_q6v5_pas
+alias of:N*T*Cqcom,sa8775p-cdsp1-pas qcom_q6v5_pas
+alias of:N*T*Cqcom,sa8775p-cdsp1-pasC* qcom_q6v5_pas
+alias of:N*T*Cqcom,sa8775p-gpdsp0-pas qcom_q6v5_pas
+alias of:N*T*Cqcom,sa8775p-gpdsp0-pasC* qcom_q6v5_pas
+alias of:N*T*Cqcom,sa8775p-gpdsp1-pas qcom_q6v5_pas
+alias of:N*T*Cqcom,sa8775p-gpdsp1-pasC* qcom_q6v5_pas
+alias of:N*T*Cqcom,sar2130p-adsp-pas qcom_q6v5_pas
+alias of:N*T*Cqcom,sar2130p-adsp-pasC* qcom_q6v5_pas
+alias of:N*T*Cqcom,sc7180-adsp-pas qcom_q6v5_pas
+alias of:N*T*Cqcom,sc7180-adsp-pasC* qcom_q6v5_pas
 alias of:N*T*Cqcom,sc7180-mpss-pas qcom_q6v5_pas
 alias of:N*T*Cqcom,sc7180-mpss-pasC* qcom_q6v5_pas
 alias of:N*T*Cqcom,sc7280-mpss-pas qcom_q6v5_pas
@@ -504,6 +520,8 @@ alias of:N*T*Cqcom,pm8550vs-gpio pinctrl_spmi_gpio
 alias of:N*T*Cqcom,pm8550vs-gpioC* pinctrl_spmi_gpio
 alias of:N*T*Cqcom,pm8916-gpio pinctrl_spmi_gpio
 alias of:N*T*Cqcom,pm8916-gpioC* pinctrl_spmi_gpio
+alias of:N*T*Cqcom,pm8937-gpio pinctrl_spmi_gpio
+alias of:N*T*Cqcom,pm8937-gpioC* pinctrl_spmi_gpio
 alias of:N*T*Cqcom,pm8941-gpio pinctrl_spmi_gpio
 alias of:N*T*Cqcom,pm8941-gpioC* pinctrl_spmi_gpio
 alias of:N*T*Cqcom,pm8950-gpio pinctrl_spmi_gpio
@@ -628,6 +646,8 @@ alias of:N*T*Cqcom,qdu1000-rpmh-clk clk_rpmh
 alias of:N*T*Cqcom,qdu1000-rpmh-clkC* clk_rpmh
 alias of:N*T*Cqcom,sa8775p-rpmh-clk clk_rpmh
 alias of:N*T*Cqcom,sa8775p-rpmh-clkC* clk_rpmh
+alias of:N*T*Cqcom,sar2130p-rpmh-clk clk_rpmh
+alias of:N*T*Cqcom,sar2130p-rpmh-clkC* clk_rpmh
 alias of:N*T*Cqcom,sc7180-rpmh-clk clk_rpmh
 alias of:N*T*Cqcom,sc7180-rpmh-clkC* clk_rpmh
 alias of:N*T*Cqcom,sc8180x-rpmh-clk clk_rpmh
@@ -758,6 +778,8 @@ alias of:N*T*Cqcom,pm8841-mpp pinctrl_spmi_mpp
 alias of:N*T*Cqcom,pm8841-mppC* pinctrl_spmi_mpp
 alias of:N*T*Cqcom,pm8916-mpp pinctrl_spmi_mpp
 alias of:N*T*Cqcom,pm8916-mppC* pinctrl_spmi_mpp
+alias of:N*T*Cqcom,pm8937-mpp pinctrl_spmi_mpp
+alias of:N*T*Cqcom,pm8937-mppC* pinctrl_spmi_mpp
 alias of:N*T*Cqcom,pm8941-mpp pinctrl_spmi_mpp
 alias of:N*T*Cqcom,pm8941-mppC* pinctrl_spmi_mpp
 alias of:N*T*Cqcom,pm8950-mpp pinctrl_spmi_mpp
