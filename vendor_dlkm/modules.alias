@@ -18,6 +18,7 @@ alias of:N*T*Cqcom,regulator-ocp-notifier qti_ocp_notifier
 alias of:N*T*Cqcom,regulator-ocp-notifierC* qti_ocp_notifier
 alias of:N*T*Cqcom,sn-nci nxp_nci
 alias of:N*T*Cqcom,sn-nciC* nxp_nci
+alias i2c:awinic_sar awinic_sar
 alias of:N*T*Cqcom,adsp-notify q6_notifier_dlkm
 alias of:N*T*Cqcom,adsp-notifyC* q6_notifier_dlkm
 alias of:N*T*Cqcom,pm8941-pwrkey pm8941_pwrkey
@@ -1022,12 +1023,6 @@ alias of:N*T*Cqcom,sdm845-slpi-pas qcom_q6v5_pas
 alias of:N*T*Cqcom,sdm845-slpi-pasC* qcom_q6v5_pas
 alias of:N*T*Cqcom,sdx55-mpss-pas qcom_q6v5_pas
 alias of:N*T*Cqcom,sdx55-mpss-pasC* qcom_q6v5_pas
-alias of:N*T*Cqcom,sm6150-adsp-pas qcom_q6v5_pas
-alias of:N*T*Cqcom,sm6150-adsp-pasC* qcom_q6v5_pas
-alias of:N*T*Cqcom,sm6150-cdsp-pas qcom_q6v5_pas
-alias of:N*T*Cqcom,sm6150-cdsp-pasC* qcom_q6v5_pas
-alias of:N*T*Cqcom,sm6150-modem-pas qcom_q6v5_pas
-alias of:N*T*Cqcom,sm6150-modem-pasC* qcom_q6v5_pas
 alias of:N*T*Cqcom,sdxpinn-modem-pas qcom_q6v5_pas
 alias of:N*T*Cqcom,sdxpinn-modem-pasC* qcom_q6v5_pas
 alias of:N*T*Cqcom,sm6115-adsp-pas qcom_q6v5_pas
@@ -1129,7 +1124,6 @@ alias of:N*T*Cqcom,kera-wpss-pasC* qcom_q6v5_pas
 alias platform:spi_geni spi_msm_geni
 alias platform:swr-mstr swr_ctrl_dlkm
 alias i2c:aw2016_led leds_aw2016
-alias i2c:dio8015 dio8015
 alias leds:leds-qpnp-flash-v2 leds_qpnp_flash_v2
 alias usb:v0BDAp8050d*dc*dsc*dp*ic*isc*ip*in* r8152
 alias usb:v0BDAp8053d*dc*dsc*dp*ic*isc*ip*in* r8152
@@ -1180,6 +1174,7 @@ alias of:N*T*Cqcom,parrot-videocc videocc_parrot
 alias of:N*T*Cqcom,parrot-videoccC* videocc_parrot
 alias of:N*T*Cqcom,gpr gpr_dlkm
 alias of:N*T*Cqcom,gprC* gpr_dlkm
+alias i2c:wl2866d wl2866d
 alias usb:v077Bp2226d*dc*dsc*dp*ic*isc*ip*in* asix
 alias usb:v0846p1040d*dc*dsc*dp*ic*isc*ip*in* asix
 alias usb:v2001p1A00d*dc*dsc*dp*ic*isc*ip*in* asix
@@ -1409,10 +1404,7 @@ alias of:N*T*Cqcom,csid640_210 camera
 alias of:N*T*Cqcom,csid640_210C* camera
 alias of:N*T*Cst,st21nfc stm_nfc_i2c
 alias of:N*T*Cst,st21nfcC* stm_nfc_i2c
-alias i2c:sx937x_multi sx937x_multi
 alias usbfunc:ccid usb_f_ccid
-alias of:N*T*Cqcom,schgm-flash schgm_flash
-alias of:N*T*Cqcom,schgm-flashC* schgm_flash
 alias of:N*T*Carm,cryptocell-713-trng cctrng
 alias of:N*T*Carm,cryptocell-713-trngC* cctrng
 alias of:N*T*Carm,cryptocell-703-trng cctrng
@@ -1427,8 +1419,6 @@ alias of:N*T*Cqcom,wcn6450 icnss2
 alias of:N*T*Cqcom,wcn6450C* icnss2
 alias of:N*T*Cqcom,wcn7750 icnss2
 alias of:N*T*Cqcom,wcn7750C* icnss2
-alias of:N*T*Cqcom,icnss-direct-link icnss2
-alias of:N*T*Cqcom,icnss-direct-linkC* icnss2
 alias tls tls
 alias tcp-ulp-tls tls
 alias usb:v*p*d*dc*dsc*dp*ic02isc0Cip07in* cdc_eem
@@ -1440,6 +1430,7 @@ alias virtio:d0000000Bv* virtio_console
 alias amba:d???[37BF]B968 coresight_tpdm
 alias of:N*T*Cqcom,coresight-static-tpdm coresight_tpdm
 alias of:N*T*Cqcom,coresight-static-tpdmC* coresight_tpdm
+alias i2c:sx937x sx937x_sar
 alias usb:v04DDp8004d*dc*dsc*dp*ic02isc06ip00in* cdc_ether
 alias usb:v04DDp8005d*dc*dsc*dp*ic02isc06ip00in* cdc_ether
 alias usb:v04DDp8005d*dc*dsc*dp*ic02isc0Aip00in* cdc_ether
@@ -1755,8 +1746,6 @@ alias of:N*T*Cqcom,pmx35-gpio pinctrl_spmi_gpio
 alias of:N*T*Cqcom,pmx35-gpioC* pinctrl_spmi_gpio
 alias of:N*T*Cqcom,pm5100-gpio pinctrl_spmi_gpio
 alias of:N*T*Cqcom,pm5100-gpioC* pinctrl_spmi_gpio
-alias of:N*T*Cmoto,mmi_stow mmi_stow
-alias of:N*T*Cmoto,mmi_stowC* mmi_stow
 alias amba:d???BB962 coresight_stm
 alias amba:d???BB963 coresight_stm
 alias of:N*T*Cqcom,dwc-usb3-msm dwc3_msm
@@ -1765,7 +1754,7 @@ alias bt-proto-3 rfcomm
 alias of:N*T*Cmediatek,geniezone gzvm
 alias of:N*T*Cmediatek,geniezoneC* gzvm
 alias rtnl-link-lowpan ieee802154_6lowpan
-alias platform:waipio-asoc-snd machine_dlkm
+alias platform:waipio-asoc-snd-cusco machine_dlkm
 alias of:N*T*Cqcom,waipio-asoc-snd machine_dlkm
 alias of:N*T*Cqcom,waipio-asoc-sndC* machine_dlkm
 alias of:N*T*Cqcom,waipio-asoc-snd-stub machine_dlkm
@@ -1789,8 +1778,6 @@ alias of:N*T*Cqcom,smmu_sde_nrt_secC* msm_drm
 alias platform:soundwire swr_dlkm
 alias of:N*T*Cqcom,sm4450-gpucc gpucc_sm4450
 alias of:N*T*Cqcom,sm4450-gpuccC* gpucc_sm4450
-alias of:N*T*Chall_pen_detect hall_pen
-alias of:N*T*Chall_pen_detectC* hall_pen
 alias usbfunc:qdss usb_f_qdss
 alias net-pf-24-proto-1 l2tp_ppp
 alias net-l2tp-type-7 l2tp_ppp
@@ -2003,6 +1990,8 @@ alias of:N*T*Cqcom,audio-ref-clkC* wcd9xxx_dlkm
 alias of:N*T*Cqcom,parrot-gpucc gpucc_parrot
 alias of:N*T*Cqcom,parrot-gpuccC* gpucc_parrot
 alias net-pf-24 pppox
+alias of:N*T*Cjiiov,fingerprint anc_fps_mmi
+alias of:N*T*Cjiiov,fingerprintC* anc_fps_mmi
 alias platform:qcom-spmi-mpp pinctrl_spmi_mpp
 alias of:N*T*Cqcom,pm8019-mpp pinctrl_spmi_mpp
 alias of:N*T*Cqcom,pm8019-mppC* pinctrl_spmi_mpp
@@ -2048,12 +2037,18 @@ alias of:N*T*Cqcom,rpmh-stats-v4 qcom_stats
 alias of:N*T*Cqcom,rpmh-stats-v4C* qcom_stats
 alias of:N*T*Cqcom,sdm845-rpmh-stats qcom_stats
 alias of:N*T*Cqcom,sdm845-rpmh-statsC* qcom_stats
+alias of:N*T*Cfocaltech,fts focaltech_v3_4
+alias of:N*T*Cfocaltech,ftsC* focaltech_v3_4
 alias can-gw can_gw
 alias of:N*T*Cqemu,vcpu-stall-detector vcpu_stall_detector
 alias of:N*T*Cqemu,vcpu-stall-detectorC* vcpu_stall_detector
 alias sdio:c02v*d* btsdio
 alias sdio:c03v*d* btsdio
 alias net-pf-16-proto-4-type-30 diag
+alias foursemi:fs16xx fs19xx_dlkm
+alias of:N*T*Cfoursemi,fs16xx fs19xx_dlkm
+alias of:N*T*Cfoursemi,fs16xxC* fs19xx_dlkm
+alias i2c:fs16xx fs19xx_dlkm
 alias virtio:d00000005v* virtio_balloon
 alias net-pf-39 nfc
 alias net-pf-16-proto-16-family-nfc nfc
